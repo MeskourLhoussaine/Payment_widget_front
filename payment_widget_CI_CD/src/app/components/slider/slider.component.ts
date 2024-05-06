@@ -49,7 +49,7 @@ export class SliderComponent implements OnInit, AfterViewInit {
   //     );}
   // }
   getMarchandPaymentMethods(): void {
-    this.marchandMethodsService.getMarchandPaymentMethods(7)
+    this.marchandMethodsService.getMarchandPaymentMethods(1)
       .subscribe(
         (paymentMethods: PaymentMethod[]) => {
           this.items = paymentMethods;
