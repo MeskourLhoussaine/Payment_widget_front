@@ -8,7 +8,7 @@
     "build:prod": "ng build --configuration=production --base-href=/Payment_widget_front/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:payment_widget_CI_CD": "node dist/payment-widget-ci-cd/server/server.mjs"
+    "serve:ssr:payment_widget_CI_CD": "node dist/payment_widget_CI_CD/server/server.mjs"
   },
   "private": true,
   "dependencies": {
