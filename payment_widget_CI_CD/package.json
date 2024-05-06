@@ -1,10 +1,11 @@
 {
-  "name": "payment-widget-ci-cd",
+  "name": "Payment_widget_front",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration=production --base-href=/Payment_widget_front/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:payment_widget_CI_CD": "node dist/payment-widget-ci-cd/server/server.mjs"
